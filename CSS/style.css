@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)),url("/img/fondo.jpg") ;
+    width:800px;
+    margin: 0px auto;
+}
+.form{
+    color: darkslategrey;
+    width: 400px;
+    padding: 30px;
+    background:black;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Calibri;
+    color: white;
+    box-shadow: 7px 13px 37px darkslateblue;
+}
+.form h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.inputs{
+    width: 100%;
+    background: black;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid darkslateblue;
+    font-size: 18px;
+    color: white;
+}
+.boton{
+    width: 40%;
+    background: darkslateblue;
+    border:none;
+    padding: 12px;
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+}
